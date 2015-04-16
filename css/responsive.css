@@ -1,0 +1,419 @@
+@media screen and (max-width: 320px) {
+
+h1{
+  font-size: 2em;
+  line-height: 1em;
+}
+
+h2{
+  font-size: 1.5em;
+  line-height: 1em;
+}
+
+header.header .big-menu {display: none;}
+header.header .left-part,header.header .right-part{display:none;}
+
+
+#how {
+  width: 100%;
+}
+
+
+#how li {width:90%;
+    margin: auto;
+    padding: 50px;}
+
+
+
+.odd {
+  
+  clear: both;
+}
+
+.even {
+  
+  clear: both;
+}
+
+#how li {
+  clear: both;
+}
+
+#how li p {
+}
+
+
+#how {background: #fff;}
+
+
+.how-icons-odd {clear: both;
+    width: 75%;
+    margin: 10% 12.5%;}
+
+.how-icons-even {clear:both;
+    width: 75%;
+    margin: 10% 12.5%;}
+
+#team-container {width: 100%; 
+}
+}
+
+
+#faq-buttons button {
+  padding: 10px;
+  color: #FFF;
+  background-color: #fff;
+  font-size: 1.2em;
+  text-align: center;
+  font-style: normal;
+  border-radius: 5px;
+  width: 100%;
+  box-shadow: none;
+  border: none;
+
+  background: #fff;
+  border: 1px solid;
+  border-color: #cccccc;
+  
+  height: auto;
+  margin: auto;
+  color: #8a97a0;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  margin-bottom: 50px;
+}
+
+.plans li{
+  max-width: 100%;
+  margin: auto;
+  padding: 0;
+}
+
+.plan .highlight {
+  max-width: 100%;
+}
+
+.bring-to-front .content-block {max-width: 100%;}
+
+.main-body {max-width: 100%}
+
+.price {max-width: 100%;}
+
+.price-wrap {max-width: 100%}
+
+#how-start .plans .plan .price-wrap {max-width: 100%}
+
+#menu-icon {
+  width: 40px;
+  height: 40px;
+  margin: 0 10px;
+  margin-top: -30px;
+  background: url(../img/menu.png) center;
+
+}
+
+ul{margin:0 auto;}
+
+.social-stuff {
+width: 168px;
+margin: auto;
+}
+
+.social-icons {
+  margin:0 1px;
+}
+
+
+
+.display {
+  margin-top: 50px;
+}
+
+ul#navlist {
+margin-top: 100px;
+margin-right: 70px;
+/* width: 100%; */
+/* text-align: right; */
+}
+
+
+/*Mobile Menu*/
+
+@media screen and (max-width: 990px) {
+
+#team-photos ul li {
+  clear: both;
+  float: none;
+  width: 100%;
+  margin: auto;
+}
+
+#team-container #team #team-section ul {
+  margin: auto;
+  }
+
+#josh, #ryan, #derek {
+  padding-top: 20px;
+}
+
+#prove-it {
+  width: 100%;
+  padding: 0;
+}
+
+
+}
+
+@media only screen and (max-width : 1200px) {
+
+.header{font-family: 'Roboto', sans-serif;
+    position: fixed;
+    font-weight: 100; 
+    text-align:center;
+    font-size: 1.2em;
+    background: #fff;}
+
+
+.logo {width: 125px;}
+
+
+nav {
+  background: #fff;
+}
+
+header {
+  position: absolute;
+}
+
+
+.small-menu {display: none;}
+
+header.header .logo{
+  margin-left: 20px;
+}
+
+header.header .big-menu a.logo-placeholder {
+    display: none;
+    }
+
+header.header .big-menu {display: none;}
+
+nav .big-menu {display: none;}
+
+.fixed-bg {display: none;}
+
+#full-screen {display: none;}
+
+.employer-form {
+  clear: both;
+  max-width:60%;
+  max-height:100%;
+  text-align:center;
+  position:relative;
+  z-index:2;
+  margin: auto;
+  }
+
+#faq-employers {max-width:60%;
+  max-height:100%;
+  text-align:center;
+  position:relative;
+  margin: auto;
+  float: none;
+  }
+
+#join-form form {
+  clear: both;
+  max-width: 80%;
+  margin: auto;
+}
+
+.employer-form {
+  float: none;
+}
+
+button {
+  width: 60%;
+}
+
+header.header .left-part{
+  display: none;
+}
+header.header .right-part{
+  display: none;
+}
+
+.header {
+  background: none;
+}
+
+.header a.logo {
+  display: none;
+}
+
+.mobile-header {
+  display: inline-block;
+}
+
+#mobile-header .click-nav {
+  display: inline-block;
+  position: fixed;
+  top:;
+}
+
+.wrap {
+  background: ;
+}
+
+.mobile-bar {
+  display: inline-block;
+}
+
+.mobile-nav {
+  display: inline-block;
+}
+
+.click-nav {display: inline-block;}
+.click-nav {width:150px; float: right; margin:0; margin-top: -30px;}
+.click-nav ul {position:relative;  font-family: 'Roboto', sans-serif;
+  font-weight: 100; font-size: 1em;}
+.click-nav ul li {position:relative;list-style:none;cursor:pointer;}
+.click-nav ul li ul {position:absolute;left:0;right:0;}
+.click-nav ul .clicker {position:relative;background:#fff;color:#000;}
+.click-nav ul .clicker:hover,.click-nav ul .active {background:;}
+.click-nav img {position:absolute;top:9px;left:12px;}
+.click-nav ul li a {transition:background-color 0.2s ease-in-out;-webkit-transition:background-color 0.2s ease-in-out;
+-moz-transition:background-color 0.2s ease-in-out;display:block;padding:8px 10px 8px 40px;background:#FFF;color:#333;text-decoration:none; text-transform: none; font-size: 1em;}
+.click-nav ul li a:hover {background:#F2F2F2;}
+
+/* Fallbacks */
+.click-nav .no-js ul {display:none;}
+.click-nav .no-js:hover ul {display:block;}
+
+
+.mobile-nav {display: inline-block;}
+.mobile-nav {width:150px; float: right; margin:0; margin-top: -30px;}
+.mobile-nav ul {position:relative;  font-family: 'Roboto', sans-serif;
+  font-weight: 100; font-size: 1em; width: 100px;}
+.mobile-nav ul li {position:relative;list-style:none;cursor:pointer;}
+.mobile-nav ul li ul {position:absolute;left:0;right:0;}
+.mobile-nav ul .clicker {
+  position: absolute;
+  top: 61px;
+  right: 1px;
+  margin-right: -5px;
+  }
+.mobile-nav ul .clicker:hover,.click-nav ul .active {background:;}
+.mobile-nav .mobile-logo {position:absolute;top:9px;left:12px;}
+.mobile-nav ul li a {transition:background-color 0.2s ease-in-out;-webkit-transition:background-color 0.2s ease-in-out;
+-moz-transition:background-color 0.2s ease-in-out;display:block;padding:8px 100px 8px 10px;background:#FFF;color:#333;text-decoration:none; text-transform: none; font-size: 1em; width:120px;}
+.mobile-navul li a:hover {background:#F2F2F2;}
+
+/* Fallbacks */
+.mobile-nav .no-js ul {display:none;}
+.mobile-nav .no-js:hover ul {display:block;}
+
+.mobile-logo {
+  width: 150px;
+  margin-left: 7px;
+  margin-top: 11px;
+}
+
+#mobile-nav ul {
+  width: 40%;
+  text-align: right;
+  background: #fff;
+}
+
+.mobile-bar {
+  width: 100%;
+  height: 80px;
+  background: #fff;
+  margin-top:-50px;
+}
+
+.links {
+  margin-top: 100px;
+}
+
+li.plan.clearfix {
+padding: 1%;
+padding-top: 30px; 
+}
+
+.button span {
+border-radius: 10px;
+background: #f06f5d;
+padding: 15px 30px;
+}
+
+
+.how-icons-odd, .how-icons-even {
+float: none;
+clear: both;
+display: block;
+padding-top: 10px;
+margin: auto;
+width: 80px;
+}
+
+#how li {
+text-align: center;
+padding: 20px;
+}
+
+#company-logos li{
+  list-style: none;
+  display: inline-block;
+  width: 20%;
+  margin: 0 2%;
+  margin-top: 35px;
+  }
+
+}
+
+@media screen and (max-width: 1260px) {
+
+  #about-list .even, #about-list .odd {
+    width: 40%;
+  }
+
+}
+
+@media screen and (max-width: 800px) {
+
+#about-list .even, #about-list .odd {
+  width: 80%;
+}
+
+}
+
+
+@media screen and (max-width: 740px) {
+  li.plan.clearfix {
+    width: 80%;
+  }
+
+  #company-logos ul {
+    margin: auto auto;
+    margin-left: 15%;
+  }
+
+  #company-logos li {
+    list-style: none;
+    display: inline-block;
+    width: 33%;
+    margin: 0 4%;
+    margin-top: 0;
+}
+}
+
+}
+
+
+
+
+
+ 
+
+/*RESET*/

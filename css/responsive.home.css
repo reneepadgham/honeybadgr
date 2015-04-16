@@ -1,0 +1,190 @@
+@media screen and (max-width: 480px) {
+
+h1 {
+  font-size: 24px;
+  line-height: 26px;
+}
+
+h2, h3, h4 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  }
+
+h2 {
+  font-size:18px;
+  }
+
+h3{
+  font-size:18px;
+  }
+
+h4{
+  font-size:18px;
+  }
+
+h1,h2{color:#fff}
+h3,h4{color:#000}
+
+#how-hnbdgr {
+  width:100%;
+}
+
+#how-start {
+  width: 70%;
+  margin: auto;
+}
+
+#how {
+  width: 100%;
+}
+
+
+#how li {width:90%;
+    margin: auto;
+    padding: 50px;}
+
+
+
+.odd {
+  text-align: center;
+  background: #f7f4ef;
+  clear: both;
+}
+
+.even {
+  text-align: center;
+  clear: both;
+}
+
+#how li {
+  clear: both;
+}
+
+#how li p {
+}
+
+#team-container {width: 100%; 
+  background: #f7f4ef;
+  padding: 20px;
+  padding-top: 60px;}
+
+#team {width: 100%;
+  margin: auto;
+  text-align: center;}
+
+#how {background: #fff;}
+
+#team-photos ul li{
+      width: 100%;
+      margin: auto;
+      padding: 10% 25%;
+      }
+
+#team-photos ul li .social-stuff {
+  width: 100%;
+  margin:auto;
+}
+
+.how-icons-odd {clear: both;
+    width: 75%;
+    margin: 10% 12.5%;}
+
+.how-icons-even {clear:both;
+    width: 75%;
+    margin: 10% 12.5%;}
+
+#team-container {width: 100%; 
+  background: #f7f4ef;
+  padding: 40px;}
+
+}
+
+#faq-buttons button {
+  padding: 10px;
+  color: #FFF;
+  background-color: #fff;
+  font-size: 1.2em;
+  text-align: center;
+  font-style: normal;
+  border-radius: 5px;
+  width: 100%;
+  box-shadow: none;
+  border: none;
+
+  background: #fff;
+  border: 1px solid;
+  border-color: #cccccc;
+  
+  height: auto;
+  margin: auto;
+  color: #8a97a0;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  margin-bottom: 50px;
+}
+
+#how-start {
+  max-width: 80%;
+  margin: auto;
+}
+
+#how-hnbdgr {
+  max-width: 100%;
+  margin: auto;
+  padding: 0;
+}
+
+.plans li{
+  max-width: 100%;
+  margin: auto;
+  padding: 0;
+}
+
+.plan .highlight {
+  max-width: 100%;
+}
+
+.wrap {
+  background:url(../img/badgrbg.png);
+  width:100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border: none;
+}
+
+
+.bring-to-front .content-block {max-width: 100%;}
+
+.main-body {max-width: 100%}
+
+.price {max-width: 100%;}
+
+.price-wrap {max-width: 100%}
+
+#how-start .plans .plan .price-wrap {max-width: 100%}
+
+
+header.header .left-part{
+  display: none;
+}
+header.header .right-part{
+  display: none;
+}
+
+
+
+/*Mobile Menu*/
+
+@media only screen and (max-width : 1100px) {
+
+
+
+
+
+
+
+
+
+

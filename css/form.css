@@ -1,0 +1,141 @@
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Nunito', sans-serif;
+  color: #384047;
+}
+
+h1 {
+  margin: 0 0 30px 0;
+  text-align: center;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  margin: 0 4px 8px 0;
+}
+
+button {
+  padding: 19px 39px 18px 39px;
+  color: #FFF;
+  background-color: #f06f5d;
+  font-size: 1.3em;
+  text-align: center;
+  font-style: normal;
+  border-radius: 5px;
+  width: 40%;
+  box-shadow: none;
+  border: none;
+}
+
+fieldset {
+  margin-bottom: 30px;
+  border: none;
+}
+
+legend {
+  font-size: 1.4em;
+  line-height: 1.5em;
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  text-align: center;
+}
+
+label.light {
+  font-weight: 300;
+  display: inline;
+}
+
+
+form {
+  width: 600px;
+  margin: auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 8px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="date"],
+input[type="datetime"],
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="tel"],
+input[type="time"],
+input[type="url"],
+textarea,
+select {
+  background: #fff;
+  border: 1px solid;
+  border-color: #cccccc;
+  font-size: 16px;
+  height: auto;
+  margin: 0;
+  outline: 0;
+  padding: 10px;
+  width: 90%;
+  background-color: #fff;
+  color: #8a97a0;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+select {
+  padding: 6px;
+  height: 32px;
+  border-radius: 2px;
+}
+
+#join-button {
+  padding: 19px 39px 18px 39px;
+  color: #FFF;
+  background-color: #fff;
+  font-size: 1.3em;
+  text-align: center;
+  font-style: normal;
+  border-radius: 5px;
+  width: 35%;
+  box-shadow: none;
+  border: none;
+
+  background: #fff;
+  border: 1px solid;
+  border-color: #cccccc;
+  
+  height: auto;
+  margin: 2%;
+  color: #8a97a0;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  margin-bottom: 50px;
+}
+
+.answer {
+    display:none;
+}
+
+h2 {
+    clear: both;
+    line-height:24px;
+    font-size:18px;
+    padding-left:24px;
+    cursor:pointer;
+    background-image:url('../img/open.png');
+    background-position:left;
+    background-repeat:no-repeat;
+    text-align: left;
+}
+
+h2.close {
+    background-image:url('../img/close.png');
+}

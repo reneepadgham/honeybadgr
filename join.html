@@ -1,0 +1,219 @@
+
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Honeybadgr - Don't Care</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+		<meta name="copyright" content="2014, Honeybadgr">
+		<meta name="description" content="Building teams at VC-backed Bitcoin startups.">
+		<meta name="keywords" content="">
+		<meta name="robots" content="index,follow">
+	
+		<meta property="og:image" content="img/badgrcircle.png">
+		<meta property="og:site_name" content="Honeybadgr">
+		<meta property="og:title" content="Honeybadgr - Don't Care">
+		<meta property="og:description" content="Building teams at VC-backed Bitcoin startups.">
+		<meta property="og:type" content="website">
+
+		<meta name="twitter:card" content="summary">
+		<meta name="twitter:site" content="@tryhoneybadgr">
+
+		<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+		<link href='http://fonts.googleapis.com/css?family=Ubuntu:300,400,500|Josefin+Sans:100,300,400,600,700|Roboto:400,100,300' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/join.css">
+    <link rel="stylesheet" href="css/form.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+
+    </head>
+<body>
+
+  <header class="header"> 
+    <div>
+    <img src="img/badgsticker.png" alt="Honeybadgr" class="logo">
+    <nav class="small-menu">
+      <div class="left-part col-md-6">
+        <a href = "index.html"><img src="img/honeybadgr_gray_text.png" class="nav-image"></a>
+        <a href="index.html#how-hnbdgr">How It Works</a>
+        <a href="index.html#team-container">Team</a>
+      </div>
+      <div class="right-part col-md-6">
+        <a href="faq.html">FAQ</a>
+        <a href="employers.html">For Employers</a>
+        <a href="join.html"><button class="join-button">Join Us</button></a>
+      </div>
+    </nav>
+
+<div class="click-nav">
+  <ul class="no-js">
+    <li>
+      <img src="img/menu.png" alt="Icon" class="clicker">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="join.html">Join</a></li>
+        <li><a href="index.html#how-hnbdgr">How It Works</a></li>
+        <li><a href="index.html#team-container">Team</a></li>
+        <li><a href="faq.html">FAQ</a></li>
+        <li><a href="employers.html">For Employers</a></li>
+      </ul>
+    </li>
+  </ul>
+</div>
+
+  </header>
+
+
+  <script type="text/javascript">
+    $(function () {
+  $('.click-nav > ul').toggleClass('no-js js');
+  $('.click-nav .js ul').hide();
+  $('.click-nav .js').click(function(e) {
+    $('.click-nav .js ul').slideToggle(200);
+    $('.clicker').toggleClass('active');
+    e.stopPropagation();
+  });
+  $(document).click(function() {
+    if ($('.click-nav .js ul').is(':visible')) {
+      $('.click-nav .js ul', this).slideUp();
+      $('.clicker').removeClass('active');
+    }
+  });
+});
+  </script>
+
+
+	<div id="join-form">
+    <div id="main-text">
+		<h3>So you're a Honeybadgr, eh?</h3>
+		<h4>Tell us about your dream job, we'll let you know when we find it.<br></h2></div>
+
+      
+      <script type="text/javascript">var submitted=false;</script>
+    <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"     
+onload="if(submitted) {window.location='join.html';}"></iframe>
+      <form action="https://docs.google.com/a/honeybadgr.com/forms/d/1Qp-mgK-vHQ_JFehdRmOP2V0znW0_edt6p_uPTCnBxFA/formResponse" method="post" target="hidden_iframe" onSubmit="alert('We got you.'); submitted=true; this.submit(); this.reset(); return false">
+
+        
+        <fieldset>
+          <legend>The Basics</legend>
+          <input type="text" id="entry_483912652" name="entry.483912652" placeholder="Name">
+          <input type="hidden" value="Joined" id="entry_803564766" name="entry.803564766">
+          <input type="hidden" value="New" id="entry_1661334844" name="entry.1661334844">
+          <input type="email" id="entry_1269319996" name="entry.1269319996" placeholder="E-mail">
+          <input type="tel" id="entry_1039283828" name="entry.1039283828" placeholder="Phone (optional)">
+          <input type="text" id="entry_1581469886" name="entry.1581469886" placeholder="Where are you located?">
+          <label for="relocate">Willing to relocate?</label>
+          <select id="entry_1784423072" name="entry.1784423072" placeholder="Willing to relocate?">
+              <option value="yes">Yes</option>
+              <option value="no">No</option>
+          </select>
+        </fieldset>
+
+        <fieldset>
+          <legend>Social Profiles - More > Less</legend>
+          <input type="url" id="entry_1948694012" name="entry.1948694012" placeholder="www.linkedin.com/in/username">
+          <input type="url" id="entry_574499645" name="entry.574499645" placeholder="www.twitter.com/username">
+          <input type="url" id="entry_1318671129" name="entry.1318671129" placeholder="www.github.com/username">
+          <input type="url" id="entry_639973574" name="entry.639973574" placeholder="www.stackoverflow.com/users/1234/username">
+          <input type="url" id="entry_1276350995" name="entry.1276350995" placeholder="www.dribbble.com/username">
+          <input type="url" id="entry_1584521743" name="entry.1584521743" placeholder="www.zapchain.com/u/username">
+          <input type="url" id="entry_837418535" name="entry.837418535" placeholder="www.mysite.com/mattscats-meow">  
+        </fieldset>
+        
+         <fieldset>
+          <legend>Wish List</legend>
+          <label for="job">What do you want to do?</label>
+          <select id="entry_1705981694" name="entry.1705981694">
+            <optgroup label="Technical">
+              <option value="cofounder">Co-Founder</option>
+              <option value="cto">CTO</option>
+              <option value="devops">Dev Ops</option>
+              <option value="frontend">Front-End SWE</option>
+              <option value="hardware">Hardware Engineer</option>
+              <option value="security_engineer">Security Engineer</option>
+              <option value="software_engineer">Software Engineer</option>
+              <option value="designer">UI/UX Designer</option>
+              <option value="web_developer">Web Developer</option>
+              <option value="other_nt">Other</option>
+            </optgroup>
+
+            <optgroup label="Non-Technical">
+              <option value="attorney">Attorney</option>
+              <option value="cofounder_nt">Co-Founder (Non-Technical)</option>
+              <option value="compliance">Compliance</option>
+              <option value="customer_service">Customer Service</option>
+              <option value="finance">Finance</option>
+              <option value="human_resources">Human Resources</option>
+              <option value="marketing">Marketing</option>
+              <option value="office_manager">Office Manager</option> 
+              <option value="operations">Operations</option>
+              <option value="sales">Sales</option>
+              <option value="other_nt">Other</option>
+            </optgroup>
+          </select>
+        </fieldset> 
+
+        <fieldset>
+        <label for="payment">Have a payment preference?</label>
+        <select id="entry_1339614499" name="entry.1339614499">
+        	<option value="bitcoin">Bitcoin Please</option>
+        	<option value="cash">Ca$h Money</option>
+        	<option value="combo">Fiat/Bitcoin Combo</option>
+        	<option value="nopref">No Preference</option>
+        </select>
+        </fieldset>
+
+        <fieldset>
+        <label for="start">When can you start?</label>
+        <select id="entry_794808933" name="entry.794808933">
+        	<option value="bitcoin">Tomorrow</option>
+        	<option value="cash">In a couple weeks</option>
+        	<option value="combo">In a few months</option>
+        	<option value="nopref">Just browsing</option>
+        </select>
+        </fieldset>
+
+         <fieldset>
+          <legend>The "Dream Job"</legend>
+          <label for="bio"></label>
+          <textarea id="entry_1920590767" name="entry.1920590767" placeholder="Describe your ideal work environment. e.g. I'd like to build recurring payment systems for Bitcoin, attend more conferences, flexible hours."></textarea>
+        </fieldset>  
+
+        
+        <button type="submit" name="submit" id="ss-submit" class="candidates">Sign Up</button>
+
+
+        </div>
+ </form>
+
+
+</div>
+<section id="footer">
+    <div class="footer">
+      <ul id="company-social">
+        <li>
+          <a href="https://www.facebook.com/tryhoneybadgr"><img src="img/fbw.png" onmouseover="this.src='img/fbcolor.png'" onmouseout="this.src='img/fbw.png'" class="social-icons"></a>
+        </li>
+        <li>
+          <a href="https://twitter.com/TryHoneybadgr"><img src="img/twitterw.png" onmouseover="this.src='img/twittercolor.png'" onmouseout="this.src='img/twitterw.png'" class="social-icons"></a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/company/honeybadgr"><img src="img/liw.png" onmouseover="this.src='img/linkedincolor.png'" onmouseout="this.src='img/liw.png'" class="social-icons"></a>
+        </li>
+        <li>
+          <a href="http://instagram.com/tryhoneybadgr"><img src="img/igwhite.png" onmouseover="this.src='img/igcolor.png'" onmouseout="this.src='img/igwhite.png'" class="social-icons"></a>
+        </li>
+        <li>
+          <a href="mailto:hello@honeybadgr.com"><img src="img/mailw.png" onmouseover="this.src='img/mailcolor.png'" onmouseout="this.src='img/mailw.png'" class="social-icons"></a>
+        </li>
+      </ul>
+      <p class="copy">&copy;2014 Honeybadgr. All rights reserved.</p><br>
+    </div>
+  </div>
+</section>
+</body>
+</html>
